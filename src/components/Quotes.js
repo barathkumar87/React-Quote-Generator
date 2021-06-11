@@ -32,7 +32,7 @@ const Quotes = () => {
   return (
     <div id="quote-box">
       <div id="text"><p>{quote}</p></div>
-      <div id="author"><p>{author}</p></div>
+      <div id="author"><p>-{author}</p></div>
 
       <div id="buttons">
         <div className="social-media">
