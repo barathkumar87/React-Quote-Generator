@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 import twitterIcon from '../twitter.svg';
 import tumblrIcon from '../tumblr.svg';
 
@@ -36,12 +35,12 @@ const Quotes = () => {
 
       <div id="buttons">
         <div className="social-media">
-          <a href="#" id="twet-quote">
+          <a href="https://twitter.com/" id="twet-quote">
             <span><img src={twitterIcon} alt="" /></span>
           </a>
-          <a href="#" id="tumlr-quote">
+          {/* <a href="https://www.tumblr.com/" id="tumlr-quote">
             <span><img src={tumblrIcon} alt="" /></span>
-          </a>
+          </a> */}
         </div>
         <button onClick={handleClick} id="new-quote">New Quote</button>
       </div>
